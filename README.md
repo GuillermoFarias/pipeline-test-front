@@ -1,5 +1,8 @@
 # pipeline-test-front
 
+[![Test & coverage](https://github.com/GuillermoFarias/pipeline-test-front/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/GuillermoFarias/pipeline-test-front/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/GuillermoFarias/pipeline-test-front/branch/master/graph/badge.svg?token=2vBqLMYr09)](https://codecov.io/gh/GuillermoFarias/pipeline-test-front)
+
 ## Project setup
 ```
 npm install
