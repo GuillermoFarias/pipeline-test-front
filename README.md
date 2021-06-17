@@ -1,5 +1,7 @@
 # pipeline-test-front
 
+[![codecov](https://codecov.io/gh/GuillermoFarias/pipeline-test-front/branch/master/graph/badge.svg?token=2vBqLMYr09)](https://codecov.io/gh/GuillermoFarias/pipeline-test-front)
+
 ## Project setup
 ```
 npm install
