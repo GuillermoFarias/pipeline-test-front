@@ -9,7 +9,7 @@ export default {
   name: "HelloWorld",
   data() {
     return {
-      version: process.env.VUE_APP_VERSION,
+      version: process.env.VUE_APP_TAG_VERSION,
     };
   },
   props: {

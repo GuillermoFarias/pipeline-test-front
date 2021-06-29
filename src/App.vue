@@ -6,8 +6,6 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 
-console.log(process.env.VUE_APP_VERSION);
-
 export default {
   name: "App",
   components: {
