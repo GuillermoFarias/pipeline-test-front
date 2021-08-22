@@ -13,10 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: tag number
-        run: echo ${{ github.event.release.tag_name }}
+      - name: Extract tag name
+        id: tag
+        uses: actions/github-script@0.2.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            return context.payload.ref.replace(/\/refs\/tags\//, '');
+      - name: Echo Tag
+        run: echo ${{ steps.tag.outputs.result }}
 
