@@ -2,8 +2,9 @@
 
 [![Test & coverage](https://github.com/GuillermoFarias/pipeline-test-front/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/GuillermoFarias/pipeline-test-front/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/GuillermoFarias/pipeline-test-front/branch/master/graph/badge.svg?token=2vBqLMYr09)](https://codecov.io/gh/GuillermoFarias/pipeline-test-front)
-[![StyleCI](https://github.styleci.io/repos/375837924/shield?branch=master)]
+![StyleCI](https://github.styleci.io/repos/375837924/shield?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/guillermofarias/pipeline-test-front/badge)](https://www.codefactor.io/repository/github/guillermofarias/pipeline-test-front)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGuillermoFarias%2Fpipeline-test-front.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FGuillermoFarias%2Fpipeline-test-front?ref=badge_small)
 
 ## Project setup
 ```
@@ -27,3 +28,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGuillermoFarias%2Fpipeline-test-front.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FGuillermoFarias%2Fpipeline-test-front?ref=badge_large)
