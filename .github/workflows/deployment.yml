@@ -4,8 +4,9 @@ name: Deployment
 
 # Controls when the workflow will run
 on:
-  tags:
-    - v*
+  create:
+    tags:
+      - v*
 
 jobs:
   build:
